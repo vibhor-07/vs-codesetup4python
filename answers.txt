@@ -1,0 +1,138 @@
+Loops
+
+1) a
+Explanation: The function upper() does not modify a string in place, 
+it returns a new string which isn’t being stored anywhere.
+
+2) d
+Explanation: The loop does not terminate as new elements are being added 
+to the list in each iteration.
+
+3) c
+Explanation: SyntaxError, there shouldn’t be a space between + and = in +=.
+
+4) a
+Explanation: Control exits the loop when i becomes 7.
+
+
+
+
+Inheritance
+
+1)Answer: a
+Explanation: If the class definition is class B(A): 
+then class B inherits the methods of class A. This is called inheritance.
+
+2)Answer: c
+Explanation: Any changes made to the private members of the class in the subclass 
+aren’t reflected in the original members.
+
+3)Answer: b
+Explanation: Since the object for the derived class is declared first, 
+__new__() method of the derived class is invoked first, 
+followed by the constructor and the __new__() method of main class.
+
+4)Answer: c
+Explanation: Since the invoking method, Test.__init__(self), 
+isn’t present in the derived class, variable x can’t be inherited.
+
+
+Encapsulation
+
+1)Answer: c
+Explanation: Instantiation simply refers to creation of an instance of class. 
+It is not a fundamental feature of OOP.
+
+2)Answer: b
+Explanation: The values assigned by the constructor to the class members is used to create the object.
+
+3)Answer: c
+Explanation: The program has no error because the class member which is public is printed. 
+1 is displayed. 
+
+4)Answer: c
+Explanation: Variables beginning with two underscores are said to be private members of 
+the class and they can’t be accessed directly.
+
+
+Polymorphism
+
+1)Answer: d
+Explanation: Polymorphism is a feature of object-oriented programming languages. 
+It allows for the implementation of elegant software that is well designed 
+and easily modified.
+
+2)Answer: c
+Explanation: Polymorphism allows for the implementation of elegant software.
+
+3)Answer: c
+Explanation: In Python, any set of classes with a common set of methods can 
+be treated similarly. This is called duck typing.
+Hence duck typing imposes less restrictions.
+
+4)Answer: a
+Explanation: The super().__init__() in the subclasses has been properly invoked 
+and none of other subclasses return any other value. 
+Hence 1 is returned each time the object is created and printed.
+
+5)Answer: b
+Explanation: The derived class method change() overrides the base class method.
+
+6)Answer: a
+Explanation: A class in which one or more methods are unimplemented or 
+implemented for the methods throw an exception is called an abstract class.
+
+7)Answer: b
+Explanation: Overriding means if there are two same methods present in the superclass 
+and the subclass, the contents of the subclass method are executed.
+
+
+
+Exception Handling 
+1) d
+Explanation: There has to be at least one except statement.
+
+2) c
+Explanation: The else part is executed when no exception occurs.
+
+3) b (refer docs)
+
+4) d (refer docs)
+
+5) a
+Explanation: Each type of exception can be specified directly. 
+There is no need to put it in a list.
+
+6) d
+Explanation: The finally block is always executed.
+
+7) b
+Explanation: The finally block is executed even there is a return statement in the try block.
+
+8) a
+Explanation: No error occurs in the try block so 1 is printed.
+Then the finally block is executed and 2 is printed.
+
+9) c
+Explanation: A new exception class must inherit from a BaseException.
+There is no such inheritance here.
+
+
+
+
+
+List 
+
+1) Answer: b
+Explanation: We are iterating over each letter in the string.
+
+2)Answer: d
+Explanation: If it were to be executed as a nested for loop, 
+i would be the outer loop and j the inner loop.
+
+3)Answer: c
+Explanation: x**-1 is evaluated as (x)**(-1).
+
+4)Answer: a
+Explanation: The output of the code shown above 
+is a list containing only keys of the dictionary d, in the form of a list.
