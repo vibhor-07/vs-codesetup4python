@@ -1,0 +1,19 @@
+{
+    "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
+    "workbench.iconTheme": "eq-material-theme-icons-ocean",
+    "files.autoSave": "afterDelay",
+    "window.zoomLevel": 0,
+    "editor.fontSize": 22,
+    "editor.fontWeight": "500",
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "debug.console.fontFamily": "Consolas, 'Courier New', monospace",
+    "debug.console.fontSize": 22,
+    "terminal.integrated.fontSize": 22,
+    "terminal.integrated.fontWeight": "600",
+    "code-runner.executorMap": {
+        "python": "$pythonPath -u $fullFileName"
+    },
+    "code-runner.clearPreviousOutput": true,
+    
+
+}
